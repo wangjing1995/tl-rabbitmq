@@ -1,4 +1,4 @@
-package com.example.tlrabbitmq.exchange.fanout.pubsub;
+package com.example.tlrabbitmq.exchange.fanout;
 
 import com.example.tlrabbitmq.utils.RabbitConstant;
 import com.example.tlrabbitmq.utils.RabbitUtils;
@@ -14,6 +14,8 @@ import java.util.concurrent.TimeoutException;
  * @author: wangjing
  * @date: 2021年04月10日 16:40
  */
+
+// pub sub  发布订阅模式
 public class WeatherBureau {
     public static void main(String[] args) throws IOException, TimeoutException {
         Connection connection = RabbitUtils.getConnection();

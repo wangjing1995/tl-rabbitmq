@@ -1,4 +1,4 @@
-package com.example.tlrabbitmq.exchange.fanout.pubsub;
+package com.example.tlrabbitmq.exchange.fanout;
 
 import com.example.tlrabbitmq.utils.RabbitConstant;
 import com.example.tlrabbitmq.utils.RabbitUtils;
